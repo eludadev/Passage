@@ -1,0 +1,22 @@
+{
+    "name": "eludadev/passage",
+    "description": "1Password Passage SDK for Laravel PHP Developers.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Eludadev\\Passage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Younes Laaroussi",
+            "email": "hello@eluda.dev"
+        }
+    ],
+    "require": {
+    	"guzzlehttp/guzzle": "^7.0.1",
+        "firebase/php-jwt": "^6.8",
+        "phpfastcache/phpfastcache": "^9.1"
+    }
+}
